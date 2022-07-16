@@ -1,7 +1,8 @@
-# TestTask position junior python developer
+# Test task position junior python developer
 
 ## Первая часть
-Написать парсер для сайта https://shop.kz В разделе Смартфоны
+Написать парсер для сайта https://shop.kz 
+В разделе Смартфоны
 (https://shop.kz/smartfony/filter/almaty-is-v_nalichii-or-ojidaem-or-dostavim/apply/) надо спарсить все смартфоны с их характеристиками
 Данные должны быть в формате json и соответствовать примеру:
 {
