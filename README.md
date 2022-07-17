@@ -1,6 +1,6 @@
 # Test task junior python developer
 
-## Requirements for project - Python 3.9 +
+## Requirements for project - Python 3.9+
 
 ## Docker installation
 **to build image**  `docker build --tag python-docker .`
