@@ -1,5 +1,10 @@
 # Test task position junior python developer
 
+# Requierments for project
+# Python 3.9 +
+
+
+
 ## Первая часть
 Написать парсер для сайта https://shop.kz 
 В разделе Смартфоны
