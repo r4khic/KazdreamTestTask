@@ -1,6 +1,6 @@
 # Test task position junior python developer
 
-# Requierments for project
+# Requirements for project
 # Python 3.9 +
 
 
