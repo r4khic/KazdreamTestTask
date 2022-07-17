@@ -2,6 +2,9 @@
 
 # Requirements for project - Python 3.9 +
 
+## Docker installation
+to build image - docker build --tag python-docker .
+to run in detached mode docker run -d -p 8000:5000 python-docker
 
 
 ## Первая часть
