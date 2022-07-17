@@ -1,11 +1,11 @@
-# Test task position junior python developer
+# Test task junior python developer
 
 # Requirements for project - Python 3.9 +
 
 ## Docker installation
-to build image - docker build --tag python-docker .
+**to build image**  `docker build --tag python-docker .`
 
-to run in detached mode docker run -d -p 8000:5000 python-docker
+**to run in detached mode** `docker run -d -p 8000:5000 python-docker`
 
 
 ## Первая часть
@@ -13,12 +13,12 @@ to run in detached mode docker run -d -p 8000:5000 python-docker
 В разделе Смартфоны
 (https://shop.kz/smartfony/filter/almaty-is-v_nalichii-or-ojidaem-or-dostavim/apply/) надо спарсить все смартфоны с их характеристиками
 Данные должны быть в формате json и соответствовать примеру:
-{
+`{
 "name": "Apple iPhone 11 (2020), 64Gb, Green (MHDG3)", 
 "articul": "151840",
 "price": "329900",
 "memory-size": "64 Гб",
-}
+}`
 Ниже описание каждого из ключей: name -> Название смартфона articul -> Артикул в магазине
 price -> Цена смартфона на данный момент memory-size -> Объем встроенной памяти
 Все данные надо сохранить в файл smartphones.json
@@ -29,7 +29,8 @@ price -> Цена смартфона на данный момент memory-size 
 Обернуть в докер контейнер (Dockerfile, docker-compose)
 Пример:
 URL: localhost:8000/smartphones?price=329900 Response:
-[
+
+`[
 {
 "name": "Apple iPhone 11 (2020), 64Gb, Green (MHDG3)", 
 "articul": "151840",
@@ -41,6 +42,6 @@ URL: localhost:8000/smartphones?price=329900 Response:
 "price": "329900",
 "memory-size": "64 Гб",
 }
-]
+]`
 
 В качестве решения можно отправить ссылку на репозиторий или zip архив проекта
